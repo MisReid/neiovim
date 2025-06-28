@@ -25,6 +25,7 @@ return function()
     callback = function(args)
       -- Clear any autocommands or keymaps related to the LSP client
       vim.lsp.buf.clear_references()
+    end
   })
 
   require("mason-lspconfig").setup {
