@@ -1,6 +1,6 @@
 -- Ripped from kickstart.nvim
 -- TODO: Recreate myself
-function config()
+return function()
   -- Brief aside: **What is LSP?**
   --
   -- LSP is an initialism you've probably heard, but might not understand what it is.
@@ -212,5 +212,3 @@ function config()
     },
   }
 end
-
-return config
