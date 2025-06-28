@@ -31,33 +31,34 @@ return {
     opt = {
       signs = {
         add = { text = '|' },
-	change = { text = '|' },
-	delete = { text = '_' },
-	topdelete = { text = '‾' },
-	changedelete = { text = '~' },
+        change = { text = '|' },
+        delete = { text = '_' },
+        topdelete = { text = '‾' },
+        changedelete = { text = '~' },
       },
     },
-    {
-      'trope/vim-sleuth',
-    },
-    {
-      'echasnovski/mini.nvim',
-      config = function()
-	require('mini.ai').setup()
-	require('mini.pairs').setup()
-	require('mini.surround').setup()
-      end,
-    },
-    {
-      'nvim-lualine/lualine.nvim',
-      lazy = false,
-      dependencies = {'nvim-tree/nvim-web-devicons' },
-      config = function()
-	require('lualine').setup {
-	  options = {
-	    theme = 'everforest',
-	  },
-	}
-      end,
-    },
+  },
+  {
+    'trope/vim-sleuth',
+  },
+  {
+    'echasnovski/mini.nvim',
+    config = function()
+      require('mini.ai').setup()
+      require('mini.pairs').setup()
+      require('mini.surround').setup()
+    end,
+  },
+  {
+    'nvim-lualine/lualine.nvim',
+    lazy = false,
+    dependencies = { 'nvim-tree/nvim-web-devicons' },
+    config = function()
+      require('lualine').setup {
+        options = {
+          theme = 'everforest',
+        },
+      }
+    end,
+  },
 }
