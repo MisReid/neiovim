@@ -1,7 +1,7 @@
 -- Ripped from kickstart.nvim
 -- TODO: Recreate myself
 return function()
-  vim.api.nvim_create_augroup("LspAttach", {
+  vim.api.nvim_create_autocmd("LspAttach", {
     group = vim.api.nvim_create_augroup("lsp-attach", { clear = true }),
     callback = function(args)
       local client_id = args.data.client_id
