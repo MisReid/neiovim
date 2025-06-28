@@ -18,4 +18,4 @@ vim.schedule(function()
 end)
 
 -- Key mappings
--- vim.keymap.set('n', '<C-n>', ':NvimTreeToggle<cr>', { silent = true, noremap = true })
+vim.keymap.set('n', '<C-n>', ':NvimTreeToggle<cr>', { silent = true, noremap = true })
