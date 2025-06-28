@@ -25,6 +25,7 @@ return {
       },
     },
   },
+  require 'config.gitsigns',
   {
     'nvim-lualine/lualine.nvim',
     lazy = false,
