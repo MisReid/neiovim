@@ -50,6 +50,7 @@ return function()
   }
 
   for i,lsp in ipairs(ensure_installed) do
+    print(lsp)
     vim.lsp.enable(lsp)
   end
 end
