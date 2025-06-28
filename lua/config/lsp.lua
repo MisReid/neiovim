@@ -49,7 +49,7 @@ return function()
     ensure_installed = ensure_installed
   }
 
-  for i,lsp in ensure_intalled do
+  for i,lsp in ensure_installed do
     vim.lsp.enable(lsp)
   end
 end
