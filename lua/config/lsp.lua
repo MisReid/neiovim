@@ -38,6 +38,4 @@ return function()
       "yamlls",
     },
   }
-    }
-  }
 end
