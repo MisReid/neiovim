@@ -52,7 +52,7 @@ return {
         end)(),
       },
       'saadparwaiz1/cmp_luasnip',
-    }
+    },
     config = require('config.cmp')
   }
 }
