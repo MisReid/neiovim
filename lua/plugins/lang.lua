@@ -23,6 +23,7 @@ return {
     dependencies = {
       { 'mason-org/mason.nvim', opts = {} }, -- Ensure mason is set up before lspconfig
       'mason-org/mason-lspconfig.nvim',
+      'WhoIsSethDaniel/mason-tool-installer.nvim',
       { 'j-hui/fidget.nvim', opts = {} },
       'hrsh7th/cmp-nvim-lsp',
     },
