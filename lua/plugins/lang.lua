@@ -55,5 +55,11 @@ return {
       'saadparwaiz1/cmp_luasnip',
     },
     config = require('config.cmp')
+  },
+  {
+    'nvim-treesitter/nvim-treesitter',
+    branch = 'master',
+    lazy = false,
+    build = ':TSUpdate'
   }
 }
