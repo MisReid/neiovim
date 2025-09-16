@@ -130,6 +130,9 @@ return {
   },
   {
     'JefferyBoy/renamer.nvim',
+    config = function ()
+      vim.keymap.set('n', '<leader>r', ':RenameCurrentCursorField<cr>', { desc = '[r]ename variable'})
+    end
   },
   {
     "folke/which-key.nvim",
