@@ -23,4 +23,7 @@ return {
       require('mini.surround').setup()
     end,
   },
+  {
+    'JefferyBoy/renamer.nvim',
+  }
 }
