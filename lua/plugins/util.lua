@@ -128,4 +128,7 @@ return {
       end, { desc = '[S]earch [N]eovim files' })
     end,
   },
+  {
+    'JefferyBoy/renamer.nvim',
+  }
 }
